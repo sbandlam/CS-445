@@ -1,0 +1,15 @@
+import com.harshitha.calendar.test.*;
+public class TestAll{
+    public static void main(String args[]) {
+        AddTest1 a1 = new AddTest1();
+        AddTest2 a2 = new AddTest2();
+	AddTest3 a3 = new AddTest3();
+        //run all test cases
+        a1.testCreateIcs();
+          a2.testCreateIcs();
+  a3.testCreateIcs();
+    }
+}
+
+
+
